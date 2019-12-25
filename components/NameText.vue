@@ -18,8 +18,13 @@ export default {
 </script>
 
 <style lang="scss">
-  .name-text__title {
+  .name-text{
+    &__title {
     font-size: 5vw;
     text-align: center;
+    font-family: 'Lato', 'M PLUS Rounded 1c', sans-serif ;
+    font-weight:200;
+    font-style: normal;
+  }
   }
 </style>

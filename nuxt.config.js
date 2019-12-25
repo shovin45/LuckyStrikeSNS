@@ -41,7 +41,7 @@ export default {
   ],
   webfontloader: {
     google: {
-      families: ['Londrina+Sketch']
+      families: ['Londrina+Sketch', 'Lato:300', 'M+PLUS+Rounded+1c:300']
     }
   },
   /*

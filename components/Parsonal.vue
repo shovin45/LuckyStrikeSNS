@@ -72,7 +72,7 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 5vh 0 0 0;
+  margin: 5vh 0;
 }
 .name-sns {
   flex-basis: 50%;

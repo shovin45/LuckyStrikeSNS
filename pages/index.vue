@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  div.continer
     the-header
     parsonal(v-for="(section, index) of 5" :key="section" :n="index")
 </template>
@@ -21,5 +21,20 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  animation: 1s appear;
+}
 
+.continer {
+  overflow: hidden;
+}
+
+@keyframes body {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 </style>
