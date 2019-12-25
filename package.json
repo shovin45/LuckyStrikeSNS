@@ -1,0 +1,24 @@
+{
+  "name": "luckyStrikeSNS",
+  "version": "1.0.0",
+  "description": "My breathtaking Nuxt.js project",
+  "author": "shovin45",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.0"
+  },
+  "devDependencies": {
+    "nuxt-webfontloader": "^1.1.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0"
+  }
+}
