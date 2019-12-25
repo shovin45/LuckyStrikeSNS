@@ -5,11 +5,22 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name || 'Lucky Strikeメンズダンサー5人SNSまとめ - Lucky Strike',
+    titleTemplate: 'Lucky Strikeメンズダンサー5人SNSまとめ - Lucky Strike',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'エンターテイメント集団Lucky Strikeから横浜在中の横浜をこよなく愛するハッピーラッキーなメンズダンサー5人組！サマーソニックからクラブシーンのゲストなど唯一無二のエンターテイメントで様々な場所で活躍中！' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Lucky Strikeメンズダンサー5人SNSまとめ' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://lucky-strike.netlify.com/' },
+      { hid: 'og:title', property: 'og:title', content: 'Lucky Strikeメンズダンサー5人SNSまとめ - Lucky Strike' },
+      { hid: 'og:description', property: 'og:description', content: 'エンターテイメント集団Lucky Strikeから横浜在中の横浜をこよなく愛するハッピーラッキーなメンズダンサー5人組！サマーソニックからクラブシーンのゲストなど唯一無二のエンターテイメントで様々な場所で活躍中！' },
+      { hid: 'og:image', property: 'og:image', content: 'https://lucky-strike.netlify.com/assets/img/ogp.png' },
+      // { property: 'article:publisher', content: 'FacebookURL' },
+      // { property: 'fb:app_id', content: 'FacebookAppID' },
+      // { name: 'twitter:card', content: 'summary' },
+      // { name: 'twitter:site', content: '@Twitter' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
