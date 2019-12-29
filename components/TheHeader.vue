@@ -1,8 +1,8 @@
 <template lang="pug">
   header.header
       //h1.header__title Lucky Strike
-      img.header__title(src="~/assets/svg/lucky-beer.svg" alt="" data-aos="fade")
-      img.header__image(src="../assets/img/lucky-strike_main.png" alt="" data-aos="fade")
+      img.header__title(src="~/assets/svg/lucky-beer.svg" alt="")
+      img.header__image(src="../assets/img/lucky-strike_main.png" alt="")
 </template>
 
 <script>

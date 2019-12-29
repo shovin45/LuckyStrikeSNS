@@ -1,7 +1,7 @@
 <template lang="pug">
   div.continer
     the-header
-    parsonal(v-for="(section, index) of 5" :key="section" :n="index")
+    parsonal(v-for="(section, index) of 5" :key="section" :n="index" data-aos="fade")
 </template>
 
 <script>
