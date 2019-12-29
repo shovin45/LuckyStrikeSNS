@@ -1,9 +1,9 @@
 <template lang="pug">
   div.parsonal
-    thumbnail(:image-url="datas[n].imageUrl")
+    thumbnail(:image-url="datas[n].imageUrl" data-aos="fade-up")
     div.name-sns
-      name-text(:name-text="datas[n].name")
-      sns-icon(:fb-url="datas[n].fbUrl" :insta-url="datas[n].instaUrl")
+      name-text(:name-text="datas[n].name" data-aos="fade-up" data-aos-offset="20")
+      sns-icon(:fb-url="datas[n].fbUrl" :insta-url="datas[n].instaUrl" data-aos="fade-up" data-aos-offset="40")
 </template>
 
 <script>

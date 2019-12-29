@@ -1,6 +1,6 @@
 <template lang="pug">
   div.continer
-    the-header
+    the-header(data-aos="fade-up")
     parsonal(v-for="(section, index) of 5" :key="section" :n="index")
 </template>
 
